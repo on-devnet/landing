@@ -1,0 +1,35 @@
+        <svg id="SVGDoc" width="814" height="630" 
+        xmlns="http://www.w3.org/2000/svg" version="1.1" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:avocode="https://avocode.com/" 
+        viewBox="0 0 814 630">
+        <defs>
+            <path d="M1501.52035,178.40657c106.74065,-50.45508 
+            207.47337,-50.61068 291.69159,-12.73584c84.43554,
+            37.56737 152.35645,113.16501 198.49148,207.1147c44.26941,
+            94.88328 44.22272,196.79843 8.0674,279.24178c-36.65611,
+            83.6725 -97.66617,146.75507 -180.80475,191.77653c-44.03046,
+            22.66881 -90.31185,38.19864 -149.14822,47.73125c-58.06068,
+            9.39389 -128.67634,12.79037 -203.493,7.94449c-148.4737,
+            -9.32124 -314.87537,-53.08193 -349.96708,-151.78976c-19.88628,
+            -49.01315 -7.40341,-105.19813 17.32109,-161.73961c25.13008,
+            -56.62407 62.50179,-113.60444 101.74004,-166.11532c39.64394,
+            -52.59329 81.1544,-100.71691 123.89019,-141.52926c43.14137,
+            -40.89512 87.50793,-74.47897 142.21127,-99.89896z" 
+            id="Path-0"/>
+            <linearGradient id="LinearGradient1015" gradientUnits="userSpaceOnUse" 
+            x1="1477.971435546875" y1="901.6770324707031" 
+            x2="1654.507080078125" y2="138.73794555664062">
+            <stop stop-opacity="1" stop-color="#ff8f5a" offset="0"></stop>
+            <stop stop-opacity="1" stop-color="#ff2f96" offset="0.99"></stop>
+            <stop stop-opacity="1" stop-color="#ff2f96" offset="1"></stop>
+            </linearGradient>
+        </defs>
+        <desc>Generated with Avocode.</desc>
+        <g transform="matrix(1,0,0,1,-1106,-138)">
+            <g clip-path="url(#clip-2)"><title>Ellipse 1</title>
+            <use xlink:href="#Path-0" fill="#6055c4" fill-opacity="1"/>
+            <use xlink:href="#Path-0" fill="url(#LinearGradient1015)"/>
+            </g>
+        </g>
+    </svg>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing</title>
+    <!-- font awesome -->
+    <script src="all.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- carousel -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+     <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <!-- end of carousel -->
+    <!-- icon near title -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end of icon near title -->
+</head>
+<body>
+<!-- iconsSprite svg -->
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="icons" style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 101" xml:space="preserve">
+<symbol id="vk">
+<g id="XMLID_1_">
+	<path id="XMLID_807_" class="st0" d="M31.9,13.4c1.2,1.2,2.5,2.3,3.6,3.7c0.5,0.6,0.9,1.2,1.3,1.9c0.5,1,0.1,2-0.8,2.1h-5.4
+		c-1.4,0.1-2.5-0.4-3.4-1.4c-0.7-0.8-1.4-1.6-2.2-2.4c-0.3-0.3-0.6-0.6-1-0.9c-0.7-0.5-1.4-0.3-1.8,0.4c-0.4,0.8-0.5,1.7-0.6,2.5
+		c-0.1,1.3-0.4,1.6-1.7,1.7c-2.7,0.1-5.3-0.3-7.7-1.7c-2.1-1.2-3.8-2.9-5.2-4.9C4.2,10.7,2.1,6.5,0.2,2.2c-0.4-1-0.1-1.5,0.9-1.5
+		c1.8,0,3.5,0,5.3,0c0.7,0,1.2,0.4,1.5,1.1c1,2.3,2.1,4.6,3.6,6.6c0.4,0.6,0.8,1.1,1.4,1.5c0.6,0.4,1.1,0.3,1.4-0.4
+		c0.2-0.4,0.3-0.9,0.3-1.4c0.1-1.6,0.2-3.3-0.1-4.9c-0.2-1-0.7-1.7-1.7-1.9c-0.5-0.1-0.4-0.3-0.2-0.6C13,0.3,13.4,0,14.2,0h6.1
+		c1,0.2,1.2,0.6,1.3,1.6l0,6.8c0,0.4,0.2,1.5,0.9,1.7c0.5,0.2,0.9-0.3,1.2-0.6c1.5-1.6,2.5-3.4,3.4-5.3c0.4-0.8,0.8-1.7,1.1-2.6
+		c0.3-0.6,0.7-1,1.4-0.9l5.9,0c0.2,0,0.3,0,0.5,0c1,0.2,1.3,0.6,1,1.6c-0.5,1.5-1.4,2.8-2.3,4.1c-1,1.4-2,2.7-3,4
+		C30.8,11.6,30.8,12.3,31.9,13.4L31.9,13.4z"/>
+</g>
+</symbol>
+<symbol id="facebook" viewBox="0 0 32 32">
+<g>
+	<path class="st0" d="M16.5,0h-4.2C7.9,0,4.8,2.8,4.8,7.2v3.3H0.7c-0.3,0-0.6,0.3-0.6,0.6v4.8c0,0.3,0.3,0.6,0.6,0.6h4.2v12.1
+		c0,0.3,0.2,0.6,0.6,0.6h5.3c0.3,0,0.6-0.3,0.6-0.6v-12h4.8c0.3,0,0.6-0.3,0.6-0.6v-4.8c0-0.2-0.1-0.3-0.2-0.4s-0.3-0.2-0.4-0.2
+		h-4.8V7.7c0-1.3,0.3-2,2.3-2h2.8c0.3,0,0.6-0.3,0.6-0.6V0.6C17.2,0.3,16.9,0,16.5,0z"/>
+</g>
+</symbol>
+<symbol id="twitter">
+	<g>
+		<path class="st0" d="M29,3c-1.1,0.5-2.2,0.8-3.4,1c1.2-0.8,2.2-2,2.6-3.5c-1.1,0.7-2.4,1.3-3.8,1.5c-1.1-1.2-2.6-2-4.3-2
+			c-3.3,0-5.9,2.8-5.9,6.3c0,0.5,0.1,1,0.2,1.4C9.3,7.5,5,5,2,1.2c-0.5,0.9-0.8,2-0.8,3.2c0,2.2,1.1,4.1,2.6,5.3
+			c-1,0-1.9-0.3-2.7-0.8v0.1c0,3.1,2,5.6,4.8,6.2c-0.5,0.1-1,0.2-1.6,0.2c-0.4,0-0.8,0-1.1-0.1c0.8,2.5,3,4.3,5.6,4.4
+			c-2,1.7-4.6,2.7-7.4,2.7c-0.5,0-1,0-1.4-0.1C2.6,24,5.8,25,9.1,25C20.1,25,26,15.4,26,7l0-0.8C27.2,5.3,28.2,4.2,29,3z"/>
+	</g>
+</symbol>
+<symbol id="instagram">
+<g>
+	<path class="st0" d="M3.2,0h18.6C23.6,0,25,1.3,25,3.2v18.6c0,1.9-1.4,3.2-3.2,3.2H3.2C1.4,25,0,23.7,0,21.8V3.2C0,1.3,1.4,0,3.2,0
+		L3.2,0z M18.2,2.8c-0.6,0-1.1,0.5-1.1,1.1v2.7c0,0.6,0.5,1.1,1.1,1.1H21c0.6,0,1.1-0.5,1.1-1.1V3.9c0-0.6-0.5-1.1-1.1-1.1L18.2,2.8
+		L18.2,2.8z M22.2,10.6H20c0.2,0.7,0.3,1.4,0.3,2.2c0,4.2-3.5,7.5-7.8,7.5s-7.8-3.4-7.8-7.5c0-0.7,0.1-1.5,0.3-2.2H2.7v10.5
+		c0,0.5,0.4,1,1,1h17.4c0.5,0,1-0.4,1-1L22.2,10.6L22.2,10.6z M12.5,7.6c-2.8,0-5,2.2-5,4.9s2.3,4.9,5,4.9s5-2.2,5-4.9
+		S15.3,7.6,12.5,7.6z"/>
+</g>
+</symbol>
+</svg>
+<!-- end of iconsSprite svg -->
+        
+<main>
+  <!-- header -->
+  <header>
+    <div class="popup__container-none"></div>
+    <div class="popup phone">
+        <form method="post">
+            <p class="form__title">Введите номер телефона и&nbsp;мы&nbsp;Вам перезвоним в&nbsp;ближайшее время</p>
+            <p class="form__explain">*номер телефона в&nbsp;формате +7(915)&nbsp;233&nbsp;23&nbsp;23</p>
+            <div class="input__container">
+                <input type="tel" class="input__phone" name="tel" required size="30" placeholder="tel.">
+            </div>
+            <div class="input__container">
+                <input type="submit" class="btn btn__submit dark-btn" name="send" value="Отправить">
+            </div>
+        </form>
+    </div>
+
+      
+    <!-- nav-bar -->
+    <div class="nav-bar">
+        <div class="nav-bar__items fixed-container">
+            <div class="nav-btn">
+                <div class="nav-btn__bar1"></div>
+                <div class="nav-btn__bar2"></div>
+                <div class="nav-btn__bar3"></div>
+            </div>
+            <div class="nav-bar__phone">
+                <p class="nav-bar__phone-number">+7 (499) 995-55-77</p>
+                <button class="light-btn" id="submit__phone">
+                        <span class="btn__phone-icon nav_gradient-fill">
+                            <i class="fas fa-phone fa-rotate-90"></i>
+                        </span>
+                    <span class="btn__text-link-dark">
+                        Заказать звонок
+                    </span>
+                </button>
+            </div>
+        </div>
+    
+        <nav class="nav">
+            <div class="links">
+                <a href="#" class="links__item">Услуги</a>
+                <a href="#" class="links__item">Портфолио</a>
+                <a href="#" class="links__item">Стоимость</a>
+            </div>
+        </nav>
+    </div>
+    <!-- end of nav-bar -->
+
+    <div class="header fixed-container">
+            <div class="header__img">
+                <img src="img/small-man.png" alt="man" class="header__img-man">
+            </div>
+        
+            <div class="header__text">
+                <h2 class="header__text-title">дмитрий&nbsp;алексеев</h2>
+                <p class="header__text-job">Frontend-разработчик и веб-верстальщик</p>
+                <button class="btn dark-btn">
+                    <span class="btn__text-link">Узнать больше</span>
+                </button> 
+            </div>
+        </div>
+
+        <div class="header__elem"> 
+            <span class="elem1 elem0">{ }</span>
+        </div>
+        <div class="header__elem"> 
+            <span class="elem2 elem0">&lt;/&gt;</span>
+        </div>
+        <div class="header__elem"> 
+            <span class="elem3 elem0">#</span>
+        </div>
+        <div class="header__elem"> 
+            <span class="elem4 elem0">&lt;div&gt;</span>
+        </div>
+        <div class="header__elem"> 
+            <span class="elem5 elem0">&lt;/&gt;</span>
+        </div>
+        <div class="header__elem"> 
+            <span class="elem6 elem0">&lt;div&gt;</span>
+        </div>
+
+    <div class="header__img-bcg">
+        <img src="img/headerBcg.svg" alt="background-gradient" class="header__img-gradient">
+    </div>
+
+    </header>
+    <!-- end of header -->
+
+    <!-- services section -->
+    <section>
+    <div class="popup__container-none"></div>
+    <div class="popup prices" id="prices">
+        <form method="post">
+            <p class="form__title">Введите Ваш&nbsp;email&nbsp;для получения информации о&nbsp;наших ценах</p>
+            <div class="input__container">
+                <input type="email" class="input__phone" name="email" required size="35" placeholder="email">
+            </div>
+            <p class="form__explain prices__explain">* Вид услуги или работы, которая Вам необходима (не&nbsp;более 500&nbsp;символов):</p>
+            <div class="input__container">
+			    <textarea required="required" class="input__job" cols=35 rows="12" maxlength="500" name="priceJob"></textarea>
+            </div>    
+            <div class="input__container">
+                <input type="submit" class="btn btn__submit dark-btn" name="send" value="Отправить">
+            </div>
+        </form>
+    </div>
+
+        <div class="fixed-container services">
+            <div class="services__title"><h2 class="title">Что я делаю</h2></div> 
+
+            <div class="services-list">
+
+                <!-- single service-item -->
+                <div class="services__item">
+                    <div class="services__item-img">
+                        <img src="img/tools-and-utensils1.svg" class="service-icon" alt="development">
+                    </div>
+                    <p class="services__item-text">
+                        Вёрстка лендинг–страниц
+                        и&nbsp;сайтов любой сложности
+                    </p>
+                </div>
+                <!-- end of single service-item -->
+
+                <!-- single service-item -->               
+                <div class="services__item">
+                    <div class="services__item-img">
+                        <img src="img/responsive1.svg" class="service-icon" alt="adaptive">
+                    </div>
+                    <p class="services__item-text">
+                        Адаптивная вёрстка под все
+                        браузеры и устройства
+                    </p>
+                </div>
+                <!-- end of single service-item -->
+
+                <!-- single service-item -->
+                <div class="services__item">
+                    <div class="services__item-img">
+                        <img src="img/programming1.svg" class="service-icon" alt="frontend">
+                    </div>
+                    <p class="services__item-text">
+                        Frontend – разработка
+                        и&nbsp;программирование
+                    </p>
+                </div>
+                <!-- end of single service-item -->
+
+                <!-- single service-item -->
+                <div class="services__item">
+                    <div class="services__item-img">
+                        <img src="img/coding1.svg" class="service-icon" alt="improvement">
+                    </div>
+                    <p class="services__item-text">
+                        Исправление и&nbsp;доработка
+                        существующей вёрстки
+                    </p>
+                </div> 
+                <!-- end of single service-item -->
+            </div>
+            <div class="button">
+                <button class="btn dark-btn" id="btn_prices">
+                    <span class="btn__text-link">Узнать стоимость</span>
+                </button> 
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- carousel section -->
+    <section class="carousel">
+    <div class="popup__container-none"></div>
+    <div class="popup jobs" id="jobs">
+        <form method="post">
+            <p class="form__title">Введите Ваш&nbsp;email&nbsp;для получения информации о&nbsp;наших ценах</p>
+            <div class="input__container">
+                <input type="email" class="input__phone" name="email" required size="35" placeholder="email">
+            </div>
+            <p class="form__explain prices__explain">* Вид услуги или работы, которая Вам необходима (не&nbsp;более 500&nbsp;символов):</p>
+            <div class="input__container">
+			    <textarea required="required" class="input__job" cols=35 rows="12" maxlength="500" name="priceJob"></textarea>
+            </div>    
+            <div class="input__container">
+                <input type="submit" class="btn btn__submit dark-btn" name="send" value="Отправить">
+            </div>
+        </form>
+    </div>
+
+        <div class="fixed-container carousel-section">
+            <div class="carousel__title"><h2 class="title">Примеры моих работ</h2></div> 
+                <div class="responsive">
+                    <div class="slide">
+                        <img src="./img/psychologist-site.jpg" class="slide__img" alt="psychologist">
+                        <p class="slide__text">Сайт психолога Веры Антоновой</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/kids-site.jpg" class="slide__img" alt="kid">
+                        <p class="slide__text">Интернет-магазин детской одежды</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/fishing-site.jpg" class="slide__img" alt="fishing">
+                        <p class="slide__text">Сайт магазина «Рыболов»</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/psychologist-site.jpg" class="slide__img" alt="psychologist">
+                        <p class="slide__text">Сайт психолога Веры Антоновой</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/kids-site.jpg" class="slide__img" alt="kid">
+                        <p class="slide__text">Интернет-магазин детской одежды</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/fishing-site.jpg" class="slide__img" alt="fishing">
+                        <p class="slide__text">Сайт магазина «Рыболов»</p>
+                    </div>
+                </div>
+            <div class="button">
+                <button class="btn dark-btn" id="btn_jobs">
+                    <span class="btn__text-link">Заказать проект</span>
+                </button> 
+            </div>
+        </div>
+    </section>
+    <!-- end of carousel section -->
+
+    <!-- banner section -->
+    <section class="banner-section">
+        <div class="banner__elem"> 
+            <span class="banner__elem1">{ }</span>
+        </div>
+        <div class="banner__elem"> 
+            <span class="banner__elem2">&lt;/&gt;</span>
+        </div>
+        <div class="banner__elem"> 
+            <span class="banner__elem3">#</span>
+        </div>
+        <div class="banner__elem"> 
+            <span class="banner__elem4">&lt;div&gt;</span>
+        </div>
+        <div class="banner__elem"> 
+            <span class="banner__elem5">{ }</span>
+        </div>
+
+        <div class="fixed-container">
+            <div class="banner">
+                <h2 class="banner__title">Адаптивная вёрстка под&nbsp;все 
+                    устройства и&nbsp;браузеры от 1000 рублей всего 
+                    за&nbsp;4&nbsp;часа.*
+                </h2>
+                <p class="banner__text">
+                    * Срок и стоимость могут отличаться
+                    от&nbsp;заявленных и&nbsp;рассчитываются 
+                    индивидуально, в&nbsp;зависимости
+                    от&nbsp;сложности задач.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end of banner section -->
+
+        
+</main>
+
+<!-- footer -->
+<footer>
+<div class="popup__container-none"></div>
+    <div class="popup phone-down">
+        <form method="post">
+            <p class="form__title">Введите номер телефона и&nbsp;мы&nbsp;Вам перезвоним в&nbsp;ближайшее время</p>
+            <p class="form__explain">*номер телефона в&nbsp;формате +7(915)&nbsp;233&nbsp;23&nbsp;23</p>
+            <div class="input__container">
+                <input type="tel" class="input__phone" name="tel" required size="30" placeholder="tel.">
+            </div>
+            <div class="input__container">
+                <input type="submit" class="btn btn__submit dark-btn" name="send" value="Отправить">
+            </div>
+        </form>
+    </div>
+
+    <div class="footer fixed-container">
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li><a href="#" class="footer__nav-single-link">Услуги</a></li>
+                <li><a href="#" class="footer__nav-single-link">Портфолио</a></li>
+                <li><a href="#" class="footer__nav-single-link">Стоимость</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__contacts">
+            <div class="footer__phone">
+                <span class="gradient-fill"><i class="fas fa-phone fa-rotate-90"></i></span>
+                <p class="footer__phone-number">+7 (499) 995-55-77</p>
+            </div>
+            <div class="footer__mail">
+                <span class="gradient-fill"><i class="fas fa-envelope"></i></span>
+                <p class="footer__email">dmitry@alekseev.com</p>
+            </div>
+            <button class="dark-btn" id="footer__btn-dark">
+                <span class="btn__text-link submit__phone-down">Заказать звонок</span>
+            </button>
+        </div>
+
+        <div class="footer__right-section">
+            <button class="footer__btn light-btn submit__phone-down">
+                <span class="footer__btn-text btn__text-link-dark">Заказать звонок</span>
+            </button>        
+            <div class="icons-container">
+                <a href="https://vk.com/" target="_blank" class="icons-link"><svg class="icons" id="vk__icon"><use xlink:href="#vk"></use></svg></a>
+                <a href="https://ru-ru.facebook.com/" target="_blank" class="icons-link"><svg class="icons" id="facebook__icon"><use xlink:href="#facebook"></use></svg></a>
+                <a href="https://twitter.com/?lang=ru" target="_blank" class="icons-link"><svg class="icons"><use xlink:href="#twitter"></use></svg></a>
+                <a href="https://www.instagram.com/?hl=ru" target="_blank" class="icons-link"><svg class="icons"><use xlink:href="#instagram"></use></svg></a>
+            </div>
+        </div>     
+    </div>
+    <div class="footer__copyright">&copy; Дмитрий Алексеев, 2016 - 2018</div>
+</footer>
+<!-- end of footer -->
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.disablescroll.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
